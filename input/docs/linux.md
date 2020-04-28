@@ -21,12 +21,13 @@ MatterControl requires the latest version of Mono in order to work. Although Mon
 ```
 $ sudo apt install gnupg ca-certificates
 $ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
-$echo "deb https://download.mono-project.com/repo/ubuntu stable-bionic main" | sudo tee /etc/apt/sources.list.d/mono-official-stable.list
+$ echo "deb https://download.mono-project.com/repo/ubuntu stable-bionic main" | sudo tee /etc/apt/sources.list.d/mono-official-stable.list
 $ sudo apt update
 
-```
+sudo apt-get install monodevelop
 
-There are also instructions for other distributions on the [Mono website](https://www.mono-project.com/download/stable/).
+
+There are also instructions for other distributions on the [Mono website](https://www.monodevelop.com/download/#fndtn-download-lin-ubuntu).
 
 ### Serial Port Permissions
 
